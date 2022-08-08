@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/counterTv"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="48sp"
+         />
+
+    <Button
+        android:id="@+id/incrementBtn"
+        android:layout_width="match_parent"
+        android:text="+"
+        android:layout_marginTop="40dp"
+        android:textSize="24sp"
+        android:layout_height="wrap_content"
+    />
+    <Button
+        android:id="@+id/decrementBtn"
+        android:layout_width="match_parent"
+        android:text="-"
+        android:textSize="24sp"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+    />
+</LinearLayout>
